@@ -1,32 +1,37 @@
 html, body {
   background: white;
-  font-size:13px;
   font-family: sans-serif;
   margin:.3em;
 }
+
+
 .header {
   text-align: justify;
   vertical-align: top;
-  font-size: 150%;
   padding: 1em;
   width:70%;
   margin:0 auto;
 }
 
-}
-
 .header p{
-  font-size: 16px;
+  font-size:19px;
   font-family: sans-serif;
   display:block;
 }
 
-.content {
-  width:80%;
-  display:flex;
-  flex-wrap:wrap;
-  justify-content:center;
+.column {
+  margin: 0 auto !important;
+  padding: 50px;
+  margin-left: 125px !important;
+}
+.image1 {
+  height:165px;
+  width:145px;
+}
 
+.image2 {
+  height:155px;
+  width:135px;
 }
 
 .content-item {
@@ -47,9 +52,4 @@ html, body {
 .footer ul li {
   display:inline-block;
   font-size: 13px;
-
-}
-
-.wrap {
-  white-space: nowrap;
 }
