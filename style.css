@@ -1,0 +1,55 @@
+html, body {
+  background: white;
+  font-size:13px;
+  font-family: sans-serif;
+  margin:.3em;
+}
+.header {
+  text-align: justify;
+  vertical-align: top;
+  font-size: 150%;
+  padding: 1em;
+  width:70%;
+  margin:0 auto;
+}
+
+}
+
+.header p{
+  font-size: 16px;
+  font-family: sans-serif;
+  display:block;
+}
+
+.content {
+  width:80%;
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:center;
+
+}
+
+.content-item {
+  width:24%;
+  float:left;
+  height:175px;
+  line-height: 175px;
+
+}
+
+.footer {
+  text-align: center;
+  clear:both;
+  width:70%;
+  margin: 10px auto;
+}
+
+.footer ul li {
+  display:inline-block;
+  font-size: 13px;
+
+}
+
+.wrap {
+  white-space: nowrap;
+}
